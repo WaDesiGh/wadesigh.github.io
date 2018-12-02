@@ -36,6 +36,21 @@
       text-align: center;
       }
       .works {align:center;}
+      p {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    line-height: 1.6;
+        }
+      p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+        }
+      tt, code, kbd, samp {
+    font-family: monospace;
+        }
     </style>
     <noscript>
       <style amp-boilerplate>
@@ -50,7 +65,7 @@
       <p><strong>WaDesiGh Cloud Network</strong></p>
       <p id='konten'></p>
       <script>
-      document.getElementById("konten").innerHTML = "Your try to access " + window.location.href + ",but nothing in here";
+      document.getElementById("konten").innerHTML = "Your try to access <code>" + window.location.href + "</code> ,but nothing in here";
       </script>
     </div>
 </body>
